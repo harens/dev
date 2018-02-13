@@ -1,0 +1,61 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+  <title>harens @ github</title>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700i|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Product+Sans:300,400,500,600|Product+Sans+Black" rel="stylesheet">
+
+</script>
+  <meta name="description" content="This is the github page of harens">
+</head>
+ <body>
+<h3>Welcome to the official website of harens on Github!</h3>
+<br>
+<h3>At the moment, nothing much is on here. However, expect more in the future...</h3>
+  </body>
+<div class="header">
+  <h1>
+    Welcome to harens @ Github
+  </h1>
+</div>
+<style type="text/css">
+  body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/organic-tiles.png);
+  margin: 0;
+}
+h1 {
+  color: #000000;
+  text-align: center;
+font-family: 'Product Sans', serif;
+  font-size: 300%;
+}
+h3 {
+  color: #000000;
+font-family: 'Raleway', sans-serif;
+}
+.header{
+  background-color: #c0c0c0;
+  text-align: center;
+  padding: 40px;
+}
+h1::selection {
+  background: #000080;
+  color: white;
+}
+
+h1::-moz-selection {
+  background: #000080;
+  color: white;
+}
+h3::selection {
+  background: #000080;
+  color: white;
+}
+
+h3::-moz-selection {
+  background: #000080;
+  color: white;
+}
+</style>
