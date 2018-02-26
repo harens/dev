@@ -1,0 +1,37 @@
+body {
+background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/organic-tiles.png);
+margin: 0;
+}
+h1 {
+color: #000000;
+text-align: center;
+font-family: 'Product Sans', serif;
+font-size: 300%;
+}
+h3 {
+color: #000000;
+font-family: 'Raleway', sans-serif;
+}
+.header{
+background-color: #c0c0c0;
+text-align: center;
+padding: 40px;
+}
+h1::selection {
+background: #000080;
+color: white;
+}
+
+h1::-moz-selection {
+background: #000080;
+color: white;
+}
+h3::selection {
+background: #000080;
+color: white;
+}
+
+h3::-moz-selection {
+background: #000080;
+color: white;
+}
