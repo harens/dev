@@ -35,3 +35,21 @@ h3::-moz-selection {
 background: #000080;
 color: white;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Product Sans', serif;
+    height: 46px;
+}
+
+li {
+    float: left;
+}
+li a:hover {
+    background-color: #336699;
+      transition: all 0.15s linear;
+  -webkit-transition: all 0.3s linear;
+}
