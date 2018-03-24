@@ -1,5 +1,5 @@
 # harens.github.io
-Homepage on GitHub pages
+Homepage on GitHub Pages
 ## Areas to contribute
 * Add more pages
 * Improve the general appearance
