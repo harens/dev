@@ -1,1 +1,133 @@
 
+body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/organic-tiles.png);
+  margin: 0;
+}
+h1 {
+  color: #000000;
+  text-align: center;
+font-family: 'Product Sans', serif;
+  font-size: 300%;
+}
+h3 {
+  color: #000000;
+font-family: 'Product Sans', serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Product Sans', serif;
+    height: 46px;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #336699;
+      transition: all 0.15s linear;
+  -webkit-transition: all 0.3s linear;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+      transition: all 0.15s linear;
+  -webkit-transition: all 0.3s linear;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  font-family: 'Product Sans', serif;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.header{
+  background-color: #c0c0c0;
+  text-align: center;
+  padding: 40px;
+}
+h1::selection {
+  background: #000080;
+  color: white;
+}
+
+h1::-moz-selection {
+  background: #000080;
+  color: white;
+}
+h3::selection {
+  background: #000080;
+  color: white;
+}
+
+h3::-moz-selection {
+  background: #000080;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+input[type=submit] {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+      -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+input[type=submit]:hover {
+    background-color: #336699;
+  color: white;
+        -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
