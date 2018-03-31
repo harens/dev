@@ -1,0 +1,22 @@
+body {
+background-color: white;
+margin: 0;
+font-family: Product Sans, serif;
+}
+h1 {
+color: #000000;
+text-align: center;
+font-family: 'Product Sans', serif;
+font-size: 300%;
+}
+h3 {
+color: #000000;
+font-family: 'Product Sans', serif;
+}
+#header,
+#nav-menu,
+#sidebar,
+#parallax,
+#footer {
+    display: none;
+}
