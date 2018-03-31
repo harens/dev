@@ -13,6 +13,11 @@ h3 {
 color: #000000;
 font-family: 'Product Sans', serif;
 }
+h4 {
+color: #000000;
+font-family: 'Product Sans', serif;
+text-align: center;
+}
 .header{
 background-color: #c0c0c0;
 text-align: center;
@@ -33,6 +38,15 @@ color: white;
 }
 
 h3::-moz-selection {
+background: #000080;
+color: white;
+}
+h4::selection {
+background: #000080;
+color: white;
+}
+
+h4::-moz-selection {
 background: #000080;
 color: white;
 }
@@ -194,4 +208,8 @@ ul.primary li:hover > a{
     color: #ccc;
     background: none;
   }
+}
+[alt="SocialMedia"]  {
+  height: 50px;
+  width: 50px;
 }

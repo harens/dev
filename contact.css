@@ -13,6 +13,11 @@ h3 {
   color: #000000;
 font-family: 'Product Sans', serif;
 }
+h4 {
+  color: #000000;
+font-family: 'Product Sans', serif;
+text-align: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -93,7 +98,15 @@ h3::-moz-selection {
   background: #000080;
   color: white;
 }
+h4::selection {
+background: #000080;
+color: white;
+}
 
+h4::-moz-selection {
+background: #000080;
+color: white;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -130,4 +143,8 @@ input[type=submit]:hover {
   color: white;
         -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+}
+[alt="SocialMedia"]  {
+  height: 50px;
+  width: 50px;
 }
