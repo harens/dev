@@ -224,6 +224,6 @@ ul.primary li:hover > a{
   }
 }
 [alt="SocialMedia"]  {
-  height: 50px;
-  width: 50px;
+  height: 64px;
+  width: auto;
 }
