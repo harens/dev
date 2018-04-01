@@ -1,6 +1,5 @@
 
 body {
-  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/organic-tiles.png);
   margin: 0;
 }
 h1 {
@@ -266,6 +265,6 @@ input[type=submit]:hover {
     transition-duration: 0.4s;
 }
 [alt="SocialMedia"]  {
-  height: 50px;
-  width: 50px;
+  height: 64px;
+  width: auto;
 }
