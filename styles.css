@@ -207,7 +207,11 @@ ul.primary li:hover > a{
     box-shadow: none;
     width: 86%;
   }
-
+  @media only screen and (max-width: 331px) {
+    ul.sub {
+      width: 50%;
+}
+}
   ul.sub li a {
     background: #272727;
   	border: none;
