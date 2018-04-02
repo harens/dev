@@ -1,224 +1,45 @@
-body {
-margin: 0;
-font-family: Product Sans, serif;
+body{margin:0;font-family:Product Sans, serif;}
+h1{color:#000000;text-align:center;font-family:'Product Sans', serif;font-size:300%;}
+@media only screen and (max-width:279px){h1{font-size:200%;}
 }
-h1 {
-color: #000000;
-text-align: center;
-font-family: 'Product Sans', serif;
-font-size: 300%;
+@media only screen and (max-width:212px){h1{font-size:150%;}
 }
-@media only screen and (max-width: 279px) {
-h1 {
-  font-size: 200%;
-}
-}
-@media only screen and (max-width: 212px) {
-h1 {
-  font-size: 150%;
-}
-}
-h3 {
-color: #000000;
-font-family: 'Product Sans', serif;
-}
-h4 {
-color: #000000;
-font-family: 'Product Sans', serif;
-text-align: center;
-}
-.header{
-background-color: #c0c0c0;
-text-align: center;
-padding: 40px;
-}
-h1::selection {
-background: #000080;
-color: white;
-}
-
-h1::-moz-selection {
-background: #000080;
-color: white;
-}
-h3::selection {
-background: #000080;
-color: white;
-}
-
-h3::-moz-selection {
-background: #000080;
-color: white;
-}
-h4::selection {
-background: #000080;
-color: white;
-}
-
-h4::-moz-selection {
-background: #000080;
-color: white;
-}
-.wrap {
-  display: inline-block;
-  -webkit-box-shadow: 0 0 70px #fff;
-  -moz-box-shadow: 0 0 70px #fff;
-  box-shadow: 0 0 70px #fff;
-  width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-}
-
-ul {
-  list-style: none;
-  position: relative;
-  text-align: left;
-}
-
-li {
-  float: left;
-}
-
-/* clear'n floats */
-ul:after {
-  clear: both;
-}
-
+h3{color:#000000;font-family:'Product Sans', serif;}
+h4{color:#000000;font-family:'Product Sans', serif;text-align:center;}
+.header{background-color:#c0c0c0;text-align:center;padding:40px;}
+h1::selection{background:#000080;color:white;}
+h1::-moz-selection{background:#000080;color:white;}
+h3::selection{background:#000080;color:white;}
+h3::-moz-selection{background:#000080;color:white;}
+h4::selection{background:#000080;color:white;}
+h4::-moz-selection{background:#000080;color:white;}
+.wrap{display:inline-block;-webkit-box-shadow:0 0 70px #fff;-moz-box-shadow:0 0 70px #fff;box-shadow:0 0 70px #fff;width:100%;}
+a{text-decoration:none;color:#fff;display:block;}
+ul{list-style:none;position:relative;text-align:left;}
+li{float:left;}
+ul:after{clear:both;}
 ul:before,
-ul:after {
-    content: " ";
-    display: table;
+ul:after{content:" ";display:table;}
+nav{position:relative;background:#2B2B2B;background-image:-webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);background-image:-moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);background-image:-o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);background-image:linear-gradient(bottom, #2B2B2B 7%, #333333 100%);text-align:center;letter-spacing:1px;text-shadow:1px 1px 1px #0E0E0E;-webkit-box-shadow:2px 2px 3px #888;-moz-box-shadow:2px 2px 3px #888;box-shadow:2px 2px 3px #888;border-bottom-right-radius:8px;border-bottom-left-radius:8px;}
+ul.primary li a{display:block;padding:20px 30px;border-right:1px solid #3D3D3D;}
+ul.primary li:last-child a{border-right:none;}
+ul.primary li a:hover{color:#000;}
+ul.sub{position:absolute;z-index:200;box-shadow:2px 2px 0 #BEBEBE;width:35%;display:none;}
+ul.sub li{float:none;margin:0;}
+ul.sub li a{border-bottom:1px dotted #ccc;border-right:none;color:#000;padding:15px 30px;}
+ul.sub li:last-child a{border-bottom:none;}
+ul.sub li a:hover{color:#000;background:#eeeeee;}
+ul.primary li:hover ul{display:block;background:#fff;}
+ul.primary li:hover a{background:#fff;color:#666;text-shadow:none;}
+ul.primary li:hover > a{color:#000;}
+@media only screen and (max-width:600px){.decor{padding:3px;}
+.wrap{width:100%;margin-top:0px;}
+li{float:none;}
+ul.primary li:hover a{background:none;color:#8B8B8B;text-shadow:1px 1px #000;}
+ul.primary li:hover ul{display:block;background:#272727;color:#fff;}
+ul.sub{display:block;position:static;box-shadow:none;width:86%;}
+@media only screen and (max-width:331px){ul.sub{width:50%;}
 }
-
-nav {
-  position: relative;
-  background: #2B2B2B;
-  background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  background-image: linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
-  text-align: center;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 1px #0E0E0E;
-  -webkit-box-shadow: 2px 2px 3px #888;
-  -moz-box-shadow: 2px 2px 3px #888;
-  box-shadow: 2px 2px 3px #888;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-/* prime */
-ul.primary li a {
-  display: block;
-  padding: 20px 30px;
-  border-right: 1px solid #3D3D3D;
-}
-
-ul.primary li:last-child a {
-  border-right: none;
-}
-
-ul.primary li a:hover {
-
-  color: #000;
-}
-
-/* subs */
-ul.sub {
-  position: absolute;
-  z-index: 200;
-  box-shadow: 2px 2px 0 #BEBEBE;
-  width: 35%;
-  display:none;
-}
-
-ul.sub li {
-  float: none;
-  margin: 0;
-}
-
-ul.sub li a {
-  border-bottom: 1px dotted #ccc;
-  border-right: none;
-  color: #000;
-  padding: 15px 30px;
-}
-
-ul.sub li:last-child a {
-  border-bottom: none;
-}
-
-ul.sub li a:hover {
-  color: #000;
-  background: #eeeeee;
-}
-
-/* sub display*/
-ul.primary li:hover ul {
-  display: block;
-  background: #fff;
-}
-
-/* keeps the tab background white */
-ul.primary li:hover a {
-  background: #fff;
-  color: #666;
-  text-shadow: none;
-}
-
-ul.primary li:hover > a{
-  color: #000;
-}
-
-@media only screen and (max-width: 600px) {
-  .decor {
-    padding: 3px;
-  }
-
-  .wrap {
-    width: 100%;
-    margin-top: 0px;
-  }
-
-   li {
-    float: none;
-  }
-
-  ul.primary li:hover a {
-    background: none;
-    color: #8B8B8B;
-    text-shadow: 1px 1px #000;
-  }
-
-  ul.primary li:hover ul {
-    display: block;
-    background: #272727;
-    color: #fff;
-  }
-
-  ul.sub {
-    display: block;
-    position: static;
-    box-shadow: none;
-    width: 86%;
-  }
-  @media only screen and (max-width: 331px) {
-    ul.sub {
-      width: 50%;
-}
-}
-  ul.sub li a {
-    background: #272727;
-  	border: none;
-    color: #8B8B8B;
-  }
-
-  ul.sub li a:hover {
-    color: #ccc;
-    background: none;
-  }
+ul.sub li a{background:#272727;border:none;color:#8B8B8B;}
+ul.sub li a:hover{color:#ccc;background:none;}
 }
