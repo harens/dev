@@ -6,5 +6,10 @@ Please check out the [Code of Conduct](https://github.com/harens/harens.github.i
 Areas to contribute include:
 * Add more pages
 * Improve the general appearance
+## Resources
+
+1. The lessons from [W3Schools](https://www.w3schools.com), as well as the developer tools from [Facebook](https://developers.facebook.com), [Twitter](https://developer.twitter.com) and especially [Google](https://developers.google.com), have also been very useful.
+2. Menubar was based off [Simple, CSS only, responsive menu](https://codepen.io/jurbank/pen/veGnb) by [John Urbank](https://codepen.io/jurbank/).
+3. [XML-Sitemaps.com](https://www.xml-sitemaps.com) was used to create the sitemap.
 ## Licence [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/harens/harens.github.io/blob/master/LICENSE)
 This project is licenced under the [MIT Licence](https://github.com/harens/harens.github.io/blob/master/LICENSE)
