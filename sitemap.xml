@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://harens.github.io/</loc>
+  <lastmod>2018-04-27T12:21:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/index</loc>
+  <lastmod>2018-04-27T12:21:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/MedGuide/</loc>
+  <lastmod>2018-03-31T11:01:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/contact</loc>
+  <lastmod>2018-04-27T12:21:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/index</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/shet</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/dart</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/high</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/conn</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/gen</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/pop</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/ThePonyInformationGuide/contact</loc>
+  <lastmod>2018-04-27T12:21:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/MedGuide/index.html</loc>
+  <lastmod>2018-03-31T11:01:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harens.github.io/MedGuide/haematology</loc>
+  <lastmod>2018-03-31T11:01:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
