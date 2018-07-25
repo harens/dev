@@ -28,7 +28,7 @@ a:active {
   bottom: 0;
   left: 0;
 }
-@media only screen and (max-width: 716px) {
+@media only screen and (max-width: 775px) {
 .parallax {
   background-image: url("pony.jpg");
   min-height: 500px;
