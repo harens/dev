@@ -182,7 +182,7 @@ ul.primary li:hover > a{
   @media only screen and (max-width: 331px) {
     ul.sub {
       width: 50%;
-  }
+    }
   }
   ul.sub li a {
     background: #272727;
@@ -194,7 +194,6 @@ ul.primary li:hover > a{
     color: #ccc;
     background: none;
   }
-}
 .header{
   background-color: #c0c0c0;
   text-align: center;
