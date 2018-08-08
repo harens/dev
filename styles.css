@@ -17,7 +17,7 @@ a:active {
     color: blue;
     text-decoration: none;
 }
-[alt="ThePonyInformationProject"], [alt="Github"] {
+[alt="ThePonyInformationProject"], [alt="Github"], [alt="GPG"] {
   width: 50%;
   max-width: 50px;
   height: auto;
@@ -41,14 +41,11 @@ a:active {
 [alt="Pony"] {
   display:none;
 }
-[alt="ThePonyInformationProject"], [alt="Github"] {
-  width: 50px;
+[alt="ThePonyInformationProject"], [alt="Github"], [alt="GPG"] {
+  width: 10%;
   height: auto;
-}
-[alt="GPG"] {
-  width: auto;
-  height: 40px;
 }
 body {
   margin-left: auto;
+}
 }
