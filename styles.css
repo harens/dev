@@ -40,15 +40,14 @@ a:active {
 [alt="Pony"] {
   display:none;
 }
-[alt="ThePonyInformationProject"], [alt="Github"], [alt="GPG"] {
+[alt="ThePonyInformationProject"], [alt="Github"] {
   width: 50px;
   height: auto;
 }
-[alt="GPG"]{
-  width: 40px;
-  height: auto;
+[alt="GPG"] {
+  width: auto;
+  height: 40px;
 }
-body{
+body {
   margin-left: auto;
-}
 }
