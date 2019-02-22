@@ -3,12 +3,12 @@
     "short_name": "harens",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png?v=kP3pMbdbM2",
+            "src": "/android-chrome-192x192.png?v=qABpgL3q5K",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-256x256.png?v=kP3pMbdbM2",
+            "src": "/android-chrome-256x256.png?v=qABpgL3q5K",
             "sizes": "256x256",
             "type": "image/png"
         }
